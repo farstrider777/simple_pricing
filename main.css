@@ -18,3 +18,13 @@ nav a{
   padding-right: 2px;
   font-size: 13px;
 }
+
+.background {
+  background: url(background.jpg);
+  height: 327px;
+  width: 1100px;
+  margin-top: 6px;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  }
