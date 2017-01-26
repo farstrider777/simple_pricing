@@ -19,6 +19,11 @@ nav a{
   font-size: 13px;
 }
 
+section{
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
 .background{
   background: url(background.jpg);
   height: 327px;
@@ -36,4 +41,24 @@ nav a{
   top: 121px;
   left: 382px;
   text-shadow: 1px 1px #000000;
+}
+
+.float_left{
+  float: left;
+}
+
+.bg_green{
+  background-color: #519251
+}
+
+.bg_blue{
+  background-color: #2C4985
+}
+
+.bg_black{
+  background-color: #000000
+}
+
+.text_white{
+  color: white;
 }
