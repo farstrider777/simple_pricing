@@ -19,12 +19,21 @@ nav a{
   font-size: 13px;
 }
 
-.background {
+.background{
   background: url(background.jpg);
   height: 327px;
   width: 1100px;
   margin-top: 6px;
   color: white;
   text-align: center;
-  font-size: 28px;
-  }
+  font-size: 39px;
+  position: relative;
+  font-family: 'Rubik', sans-serif;
+}
+
+.a_position{
+  position: absolute;
+  top: 121px;
+  left: 382px;
+  text-shadow: 1px 1px #000000;
+}
