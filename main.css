@@ -43,6 +43,14 @@ section{
   text-shadow: 1px 1px #000000;
 }
 
+.gray_color{
+  color: #8E8E8E
+}
+
+.align_center{
+  text-align: center;
+}
+
 .float_left{
   float: left;
 }
@@ -63,10 +71,18 @@ section{
   color: white;
 }
 
+.align_price_section{
+  margin-top: -10px;
+}
+
 .price_plan_margin{
   margin: 0px 7px;
 }
 
 .price_plan_width{
   width: 254px;
+}
+
+.price_height{
+  height: 175px;
 }
