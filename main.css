@@ -32,7 +32,6 @@ section{
   color: white;
   text-align: center;
   font-size: 39px;
-  position: relative;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -71,9 +70,37 @@ section{
   color: white;
 }
 
-.align_price_section{
+.relative{
+  position: relative;
+}
+
+.align_price_section_top{
   margin-top: -10px;
 }
+
+.plan_name_font{
+  font-size: 13px;
+  letter-spacing: 3.3px;
+  }
+
+.plan_name_position{
+  padding-top: 28px;
+}
+
+.plan_price_font{
+  font-size: 79px;
+  letter-spacing: .3px;
+  font-weight: 300;
+  }
+
+.plan_price_position{
+  padding-top: 1px;
+}
+
+.plan_per_month_font{
+  font-size: 16px;
+  opacity: 0.5;
+  }
 
 .price_plan_margin{
   margin: 0px 7px;
@@ -84,5 +111,5 @@ section{
 }
 
 .price_height{
-  height: 175px;
+  height: 182px;
 }
