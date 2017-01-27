@@ -9,6 +9,22 @@ a{
   color: unset;
 }
 
+ul{
+  padding: 0px;
+  list-style: none;
+  background-color: #F7F7F7;
+  margin-top: 0px;
+  font-size: 13.5px;
+  color: #4B5960;
+  }
+
+li{
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+
 nav{
   padding-top: 4px;
 }
@@ -103,7 +119,7 @@ section{
   }
 
 .price_plan_margin{
-  margin: 0px 7px;
+margin: 0px 7px;
 }
 
 .price_plan_width{
