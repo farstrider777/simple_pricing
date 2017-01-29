@@ -136,12 +136,52 @@ section article{
   border: 2px solid lightgray;
 }
 
+/*
 .clear-left{
   clear: left;
 }
+*/
 
-/*
-.float-left{
+.s-margin{
+  margin-left: 173px;
+  padding-top: 60px;
+  clear: left;
+  width: 362px;
   float: left;
 }
-*/
+
+.btest{
+  border: 1px solid #519251;
+}
+
+.inline{
+  display: inline-block;
+}
+
+#s-font{
+  color: #5B696E;
+  font-size: 13px;
+  padding-top: 12px;
+  font-weight: 500;
+  letter-spacing: .1px;
+  line-height: 164%;
+}
+
+.m-font{
+  letter-spacing: 3.6px;
+}
+
+.m-top{
+  padding-top: 42px;
+}
+
+.r-margin .m-top{
+  padding-top: 63px;
+}
+
+.r-margin{
+  float: left;
+  width: 362px;
+  padding-top: 60px;
+  margin-left: 41px;
+}
