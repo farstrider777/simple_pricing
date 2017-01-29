@@ -4,9 +4,19 @@
   -webkit-box-sizing:border-box;
 }
 
-a{
+nav a{
   text-decoration: none;
   color: unset;
+}
+
+div a{
+  text-decoration: none;
+  color: unset;
+}
+
+footer a{
+  color: white;
+  text-decoration: underline red;
 }
 
 ul{
@@ -60,30 +70,30 @@ section article{
   letter-spacing: -.5px;
 }
 
-.a_position{
+.a-position{
   position: absolute;
   top: 121px;
   left: 382px;
   text-shadow: 1px 1px #000000;
 }
 
-.gray_color{
+.gray-color{
   color: #8E8E8E
 }
 
-.bg_green{
+.bg-green{
   background-color: #519251
 }
 
-.bg_blue{
+.bg-blue{
   background-color: #2C4985
 }
 
-.bg_black{
+.bg-black{
   background-color: #000000
 }
 
-.text_white{
+.text-white{
   color: white;
 }
 
@@ -92,31 +102,31 @@ section article{
 }
 
 
-.plan_name_font{
+.plan-name-font{
   font-size: 13px;
   letter-spacing: 3.3px;
   }
 
-.plan_name_position{
+.plan-name-position{
   padding-top: 28px;
 }
 
-.plan_price_font{
+.plan-price-font{
   font-size: 79px;
   letter-spacing: .3px;
   font-weight: 300;
   }
 
-.plan_price_position{
+.plan-price-position{
   padding-top: 1px;
 }
 
-.plan_per_month_font{
+.plan-per-month-font{
   font-size: 16px;
   opacity: 0.5;
   }
 
-.price_height{
+.price-height{
   height: 182px;
 }
 
@@ -136,26 +146,12 @@ section article{
   border: 2px solid lightgray;
 }
 
-/*
-.clear-left{
-  clear: left;
-}
-*/
-
-.s-margin{
+.l-margin{
   margin-left: 173px;
   padding-top: 60px;
   clear: left;
   width: 362px;
   float: left;
-}
-
-.btest{
-  border: 1px solid #519251;
-}
-
-.inline{
-  display: inline-block;
 }
 
 #s-font{
@@ -184,4 +180,15 @@ section article{
   width: 362px;
   padding-top: 60px;
   margin-left: 41px;
+}
+
+footer{
+  margin-top: 890px;
+  clear: left;
+  background-color: #000000;
+  color: #919191;
+  padding-top: 24px;
+  padding-bottom: 22px;
+  text-align: center;
+  font-size: 13px;
 }
